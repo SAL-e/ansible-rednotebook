@@ -3,4 +3,4 @@
   apt_repository: repo=ppa:rednotebook/stable state=present
 
 - name: install RedNotebook
-  apt: pkg=rednotebook state=present update_cache=yes cache_valid_time=300
+  apt: pkg=rednotebook state=present update_cache=yes
